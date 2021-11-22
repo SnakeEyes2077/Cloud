@@ -137,4 +137,11 @@ grid-template-coloumbs: width1 width2 width3 . . .; [n widths ,n coloumbs]
 
 grid-template-coloumbs: height1 height2 height3 . . .; [n heights ,n rows]
 (specified height for each row)
+
+gap/grid-gap: 0;
+(gives gap between elements and applies to both rows and coloumbs)
+
+column-gap: 0;/row-gap: 0;
+(gives gap between elements in columns and rows respectively)
+
 ```
