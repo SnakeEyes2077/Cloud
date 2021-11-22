@@ -130,16 +130,16 @@ flex-basis:auto/0px;
 # CSS Grid
 
 ```
-display:grid; (and) grid-template-coloumbs/rows
+display:grid; (and) grid-template-columbs/rows
 
-grid-template-coloumbs: width1 width2 width3 . . .; [n widths ,n coloumbs]
+grid-template-columbs: width1 width2 width3 . . .; [n widths ,n columbs]
 (specified width for each coloumb)
 
-grid-template-coloumbs: height1 height2 height3 . . .; [n heights ,n rows]
+grid-template-columbs: height1 height2 height3 . . .; [n heights ,n rows]
 (specified height for each row)
 
 gap/grid-gap: 0;
-(gives gap between elements and applies to both rows and coloumbs)
+(gives gap between elements and applies to both rows and columbs)
 
 column-gap: 0;/row-gap: 0;
 (gives gap between elements in columns and rows respectively)
