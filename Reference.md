@@ -108,8 +108,9 @@ gap : 0; (length)
 ## Flex-Items -->
 
 ```
-align-self: center/flex-start/flex-end/stretch
-(changes representation of child element to center/top/bottom/fill)
+justify-self: center/flex-start/flex-end/stretch;
+align-self: center/flex-start/flex-end/stretch;
+(To overwrite justify-items/align items for single items)
 
 flex: 0 1 auto; [Default]
 (flex-grow/flex-shrink/flex-basis details below)
@@ -127,14 +128,14 @@ flex-basis:auto/0px;
 <!-- --- -->
 ```
 
-# CSS Grid
+# CSS Grid -->
 
 ```
 display:grid; (with) grid-template-columbs/rows
 
 ```
 
-## CSS Container
+## CSS Container -->
 
 ```
 
@@ -144,6 +145,8 @@ grid-template-columbs: width1 width2 (track size). . .; [n widths ,n columbs]
 grid-template-columbs: height1 height2 (track size) . . .; [n heights ,n rows]
 (specified height for each row)
 
+[fr element fills unused space]
+
 gap/grid-gap: 0;
 (gives gap between elements and applies to both rows and columbs)
 column-gap: 0;/row-gap: 0;
@@ -152,6 +155,24 @@ column-gap: 0;/row-gap: 0;
 
 align-items: stretch(default) /center/start/end --- Vertical alignment
 justify-content: stretch(default) /center/start/end --- Horizantal alignment
-(o align items inside rows/columbs[horizontally/vertically])
+(To align items inside rows/columbs[horizontally/vertically])
+
+justify-content: stretch(default) /center/start/end
+align-content: stretch(default) /center/start/end
+(To align entire grid indise grid container)
+[only applies if container is larger than Grid container]
+
+```
+
+## CSS Container -->
+
+```
+grid-column: <start line> / <end line>
+grid-row: <start line> / <end line>
+(to place a grid item into a specific cell based on grid line numbers)
+
+justify-self: center/flex-start/flex-end/stretch;
+align-self: center/flex-start/flex-end/stretch;
+(To overwrite justify-items/align items for single items)
 
 ```
