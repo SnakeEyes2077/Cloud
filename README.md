@@ -1,7 +1,10 @@
 # Shortcut
 
+```
 ! is shortcut for empty HTML stntax
+
 lorem generates blind text
+```
 
 # HTML
 
