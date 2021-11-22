@@ -130,18 +130,28 @@ flex-basis:auto/0px;
 # CSS Grid
 
 ```
-display:grid; (and) grid-template-columbs/rows
+display:grid; (with) grid-template-columbs/rows
 
-grid-template-columbs: width1 width2 width3 . . .; [n widths ,n columbs]
+```
+
+## CSS Container
+
+```
+
+grid-template-columbs: width1 width2 (track size). . .; [n widths ,n columbs]
 (specified width for each coloumb)
 
-grid-template-columbs: height1 height2 height3 . . .; [n heights ,n rows]
+grid-template-columbs: height1 height2 (track size) . . .; [n heights ,n rows]
 (specified height for each row)
 
 gap/grid-gap: 0;
 (gives gap between elements and applies to both rows and columbs)
-
 column-gap: 0;/row-gap: 0;
 (gives gap between elements in columns and rows respectively)
+[Create empty space of guters between tracks]
+
+align-items: stretch(default) /center/start/end --- Vertical alignment
+justify-content: stretch(default) /center/start/end --- Horizantal alignment
+(o align items inside rows/columbs[horizontally/vertically])
 
 ```
