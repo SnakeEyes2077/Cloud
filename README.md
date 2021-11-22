@@ -5,6 +5,7 @@ lorem generates blind text
 
 # HTML
 
+```
 shortcut for quick classes
 .{classname}/.{classname}/.../#{id name}.
 
@@ -22,9 +23,11 @@ special tag for writing addresses
 <strong></strong> Bold Text
 <sub></sub> Subset
 <sup></sup> Superset
+```
 
 # CSS elements refernce
 
+```
 img basic rotate
 https://codepen.io/StrengthandFreedom/pen/BaaQYqw
 
@@ -76,13 +79,17 @@ text-decoration: none/dotted/overline/solid;
 
 text-transform: none, uppercase, lowercase, capitalise;
 (for changing the way font looks)
+```
 
 # Flexbox
 
+```
 display: flex; (To enable flexbox)
+```
 
 ## Flex-Container -->
 
+```
 align-items: center/float-start/flex-end/stretch --- Vertical alignment
 (changes flexed elements to center/top/bottom/(default)cover whole parent)
 
@@ -93,17 +100,17 @@ justify-content: space-between; ( ooooo ) to ( o o o o o )
 
 gap : 0; (length)
 (create space between items without margin)
+```
 
 ## Flex-Items -->
 
+```
 align-self: center/flex-start/flex-end/stretch
 (changes representation of child element to center/top/bottom/fill)
 
 flex: 0 1 auto; [Default]
 (flex-grow/flex-shrink/flex-basis details below)
-
----
-
+<!-- --- -->
 flex-shrink:1/0;
 (if flex basis overflows the element then flex shrink is controlling it)
 (if made 0 it will prevemt basis from shrinking)
@@ -114,11 +121,12 @@ flex-grow:1/0/any integer; [ o o ] ---> [ ( o ) ( o ) ]
 
 flex-basis:auto/0px;
 (changes the minimum size of child element to given size else stays the same)
-
----
+<!-- --- -->
+```
 
 # CSS Grid
 
+```
 display:grid; (and) grid-template-coloumbs/rows
 
 grid-template-coloumbs: width1 width2 width3 . . .; [n widths ,n coloumbs]
@@ -126,3 +134,4 @@ grid-template-coloumbs: width1 width2 width3 . . .; [n widths ,n coloumbs]
 
 grid-template-coloumbs: height1 height2 height3 . . .; [n heights ,n rows]
 (specified height for each row)
+```
