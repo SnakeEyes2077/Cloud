@@ -138,6 +138,10 @@ display:grid; (with) grid-template-columbs/rows
 
 ```
 
+<img src="Img/Css-greid-terminology-1.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%;"/>
+<img src="Img/Css-greid-terminology-2.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%;"/>
+<img src="Img/Css-greid-properties.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%;"/>
+
 ## CSS Container -->
 
 ```
