@@ -90,7 +90,7 @@ text-transform: none, uppercase, lowercase, capitalise;
 display: flex; (To enable flexbox)
 ```
 
-<img src="Img/Flex-Box-most used code.jpg" alt="FlexBox Commonly used codes" style="height: 100px; width:100px;"/>
+<img src="Img/Flex-Box-most used code.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%;"/>
 ## Flex-Container -->
 
 ```
