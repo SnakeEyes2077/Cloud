@@ -134,7 +134,7 @@ flex-basis:auto/0px;
 # CSS Grid -->
 
 ```
-display:grid; (with) grid-template-colums/rows
+display:grid; (with) grid-template-columns/rows
 
 ```
 
@@ -146,25 +146,26 @@ display:grid; (with) grid-template-colums/rows
 
 ```
 
-grid-template-colums: width1 width2 (track size). . .; [n widths ,n colums]
+grid-template-columns: width1 width2 (track size). . .; [n widths ,n columns]
 (specified width for each coloumb)
-
 grid-template-rows: height1 height2 (track size) . . .; [n heights ,n rows]
 (specified height for each row)
 
 [fr element fills unused space]
 [fr can be used in specifing dimensions of box in above elements acts like flex grow in responsivescale]
 
+grid-template-columnns
 
-gap/grid-gap: 0; / gap: <row> <colum>;
-(gives gap between elements and applies to both rows and colums)
-column-gap: 0;/row-gap: 0;
-(gives gap between elements in columns and rows respectively)
+
+gap/grid-gap: 0; / gap: <row> <column>;
+(gives gap between elements and applies to both rows and columns)
+columnn-gap: 0;/row-gap: 0;
+(gives gap between elements in columnns and rows respectively)
 [Create empty space of guters between tracks]
 
 align-items: stretch(default) /center/start/end --- Vertical alignment
 justify-content: stretch(default) /center/start/end --- Horizantal alignment
-(To align items inside rows/colums[horizontally/vertically])
+(To align items inside rows/columns[horizontally/vertically])
 
 justify-content: stretch(default) /center/start/end
 align-content: stretch(default) /center/start/end
@@ -176,7 +177,7 @@ align-content: stretch(default) /center/start/end
 ## Grid Cell -->
 
 ```
-grid-column: <start line> / <end line>
+grid-columnn: <start line> / <end line>
 grid-row: <start line> / <end line>
 (to place a grid item into a specific cell based on grid line numbers)
 
