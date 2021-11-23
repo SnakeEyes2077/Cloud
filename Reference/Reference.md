@@ -154,8 +154,8 @@ grid-template-rows: height1 height2 (track size) . . .; [n heights ,n rows]
 [fr element fills unused space]
 [fr can be used in specifing dimensions of box in above elements acts like flex grow in responsivescale]
 
-grid-template-columnns
-
+grid-template-columnns/rows: repeat(no of columns/rows, dimension)
+css grid can utilize repeat funtion for increasing readability
 
 gap/grid-gap: 0; / gap: <row> <column>;
 (gives gap between elements and applies to both rows and columns)
@@ -176,13 +176,13 @@ align-content: stretch(default) /center/start/end
 
 ## Grid Cell -->
 
-```
+````
 grid-columnn: <start line> / <end line>
 grid-row: <start line> / <end line>
 (to place a grid item into a specific cell based on grid line numbers)
-
+``` ```
 justify-self: center/flex-start/flex-end/stretch;
 align-self: center/flex-start/flex-end/stretch;
 (To overwrite justify-items/align items for single items)
 
-```
+````
