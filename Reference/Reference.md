@@ -36,50 +36,78 @@ https://codepen.io/StrengthandFreedom/pen/BaaQYqw
 
 background-image: url();
 [for local items use ("../") or direct link (https://) ]
+```
 
+```
 background-size: auto/contain/cover;
 (auto adjust/orginal size/fit to viewport of parent)
+```
 
+```
 box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
 (x, y, spread, thickness, color)
+```
 
+```
 border: 1px solid #0e0e0e;
 (border: thickness, type, color)
+```
 
+```
 border-radius: 0px 0px 0px 0px;
 (smoothining border: top-left, top-right, bottom-right, bottom-left)
 or
 border-radius: 0px ; / border-radius: 0px 0px;
 (all four corners) / (top-l & bottom-r, top-r & bottom-l)
+```
 
+```
 box-sizing: content-box/border-box
 (content-box is default and is not calculated)
 (border-box calculates width from border to border)
+```
 
+```
 clear: left/right/both
 (clearing the bugs made by clear element)
+```
 
+```
 Clearfix hack - add the class below to collapsing parent class
 clearfix::after{clear: both;content:'';display: block;}
+```
 
+```
 cursor: pointer/cess/crossair...;
 (select type of cursor on hover)
+```
 
+```
 display: block/inline/inline-block/float/flex/css-grid
 (changes beahaviour of the container element)
+```
 
+```
 font-style: italic, unset ,normal ;
 (for changing and unsetting font style)
+```
 
+```
 float: left/right (Use with Clearfix)
 (makes the element to behave like absolute element in given direction)
+```
 
+```
 padding: 0 0; margin: 0 0:
 (top & bottom, left & right)
+```
 
+```
 text-decoration: none/dotted/overline/solid;
 (used for links decoration)
+```
 
+```
 text-transform: none, uppercase, lowercase, capitalise;
 (for changing the way font looks)
 ```
@@ -98,12 +126,16 @@ display: flex; (To enable flexbox)
 ```
 align-items: center/float-start/flex-end/stretch --- Vertical alignment
 (changes flexed elements to center/top/bottom/(default)cover whole parent)
+```
 
+```
 justify-content: center/float-start/flex-end --- Horizantal alignment
 (changes flexed elements to center/top/bottom)
 justify-content: space-between; ( ooooo ) to ( o o o o o )
 (Gives the remaining space between flexed items evenly)
+```
 
+```
 gap : 0; (length)
 (create space between items without margin)
 ```
@@ -114,7 +146,9 @@ gap : 0; (length)
 justify-self: center/flex-start/flex-end/stretch;
 align-self: center/flex-start/flex-end/stretch;
 (To overwrite justify-items/align items for single items)
+```
 
+```
 flex: 0 1 auto; [Default]
 (flex-grow/flex-shrink/flex-basis details below)
 <!-- --- -->
@@ -153,20 +187,28 @@ grid-template-rows: height1 height2 (track size) . . .; [n heights ,n rows]
 
 [fr element fills unused space]
 [fr can be used in specifing dimensions of box in above elements acts like flex grow in responsivescale]
+```
 
+```
 grid-template-columnns/rows: repeat(no of columns/rows, dimension)
 css grid can utilize repeat funtion for increasing readability
+```
 
+```
 gap/grid-gap: 0; / gap: <row> <column>;
 (gives gap between elements and applies to both rows and columns)
 columnn-gap: 0;/row-gap: 0;
 (gives gap between elements in columnns and rows respectively)
 [Create empty space of guters between tracks]
+```
 
+```
 align-items: stretch(default) /center/start/end --- Vertical alignment
 justify-content: stretch(default) /center/start/end --- Horizantal alignment
 (To align items inside rows/columns[horizontally/vertically])
+```
 
+```
 justify-content: stretch(default) /center/start/end
 align-content: stretch(default) /center/start/end
 (To align entire grid indise grid container)
