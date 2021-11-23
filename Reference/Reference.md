@@ -154,7 +154,7 @@ grid-template-colums: height1 height2 (track size) . . .; [n heights ,n rows]
 
 [fr element fills unused space]
 
-gap/grid-gap: 0; / gap: 0 0; <row> <colum>
+gap/grid-gap: 0; / gap: <row> <colum>;
 (gives gap between elements and applies to both rows and colums)
 column-gap: 0;/row-gap: 0;
 (gives gap between elements in columns and rows respectively)
