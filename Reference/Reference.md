@@ -118,8 +118,8 @@ text-transform: none, uppercase, lowercase, capitalise;
 display: flex; (To enable flexbox)
 ```
 
-<img src="Img/Flex-Box-terminology.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:75%; margin: 0 auto"/>
-<img src="Img/Flex-Box-most used code.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:75%; margin: 0 auto"/>
+<img src="Img/Flex-Box-terminology.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
+<img src="Img/Flex-Box-most used code.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
 
 ## Flex-Container -->
 
@@ -172,9 +172,9 @@ display:grid; (with) grid-template-columns/rows
 
 ```
 
-<img src="Img/Css-greid-terminology-1.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:75%; margin: 0 auto"/>
-<img src="Img/Css-greid-terminology-2.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:75%; margin: 0 auto"/>
-<img src="Img/Css-greid-properties.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:75%; margin: 0 auto"/>
+<img src="Img/Css-greid-terminology-1.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
+<img src="Img/Css-greid-terminology-2.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
+<img src="Img/Css-greid-properties.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
 
 ## Grid Container -->
 
