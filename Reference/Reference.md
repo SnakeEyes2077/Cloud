@@ -176,14 +176,15 @@ align-content: stretch(default) /center/start/end
 
 ## Grid Cell -->
 
-````
+```
 grid-columnn: <start line> / <end line>
 grid-row: <start line> / <end line>
 (to place a grid item into a specific cell based on grid line numbers)
 ```
+
 ```
 justify-self: center/flex-start/flex-end/stretch;
 align-self: center/flex-start/flex-end/stretch;
 (To overwrite justify-items/align items for single items)
 
-````
+```
