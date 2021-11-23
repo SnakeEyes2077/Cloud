@@ -151,6 +151,9 @@ align-self: center/flex-start/flex-end/stretch;
 ```
 flex: 0 1 auto; [Default]
 (flex-grow/flex-shrink/flex-basis details below)
+```
+
+```
 <!-- --- -->
 flex-shrink:1/0;
 (if flex basis overflows the element then flex shrink is controlling it)
