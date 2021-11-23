@@ -122,7 +122,7 @@ flex-shrink:1/0;
 (if flex basis overflows the element then flex shrink is controlling it)
 (if made 0 it will prevemt basis from shrinking)
 
-flex-grow:1/0/any integer; [ o o ] ---> [ ( o ) ( o ) ]
+flex-grow:1/0/any integer; [ o o    ] ---> [ ( o ) ( o ) ]
 (setting it to 1 will grow the child elements to maximum size possible)
 (if two elements are set with 1 and 2 then one with 2 will get double of remaining space avaliable to 1)
 
@@ -149,10 +149,12 @@ display:grid; (with) grid-template-colums/rows
 grid-template-colums: width1 width2 (track size). . .; [n widths ,n colums]
 (specified width for each coloumb)
 
-grid-template-colums: height1 height2 (track size) . . .; [n heights ,n rows]
+grid-template-rows: height1 height2 (track size) . . .; [n heights ,n rows]
 (specified height for each row)
 
 [fr element fills unused space]
+[fr can be used in specifing dimensions of box in above elements acts like flex grow in responsivescale]
+
 
 gap/grid-gap: 0; / gap: <row> <colum>;
 (gives gap between elements and applies to both rows and colums)
