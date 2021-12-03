@@ -179,8 +179,6 @@ display:grid; (with) grid-template-columns/rows
 <img src="Img/Css-greid-terminology-2.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
 <img src="Img/Css-greid-properties.jpg" alt="FlexBox Commonly used codes" style="height: auto; width:100%; margin: 0 auto"/>
 
-## Grid Container -->
-
 ```
 
 grid-template-columns: width1 width2 (track size). . .; [n widths ,n columns]
@@ -218,8 +216,6 @@ align-content: stretch(default) /center/start/end
 [only applies if container is larger than Grid container]
 
 ```
-
-## Grid Cell -->
 
 ```
 grid-columnn: <start line> / <end line>

@@ -1,0 +1,48 @@
+***** CSS Grid *****
+
+display:grid;   (and)   grid-template-coloumbs/rows
+
+grid-template-coloumbs: width1 width2 width3 . . .; [n widths ,n coloumbs]
+(specified width for each coloumb)
+
+grid-template-coloumbs: height1 height2 height3 . . .; [n heights ,n rows]
+(specified height for each row)
+
+grid template-coloumbs/rows: repeat( <no of .>, <dimension> )
+(short form for writing grid-template-coloumbs/rows)
+
+
+gap/grid-gap: 0; / gap: <row> <column>;
+(gives gap between elements and applies to both rows and columns)
+columnn-gap: 0;/row-gap: 0;
+(gives gap between elements in columnns and rows respectively)
+[Create empty space of guters between tracks]
+
+align-items: stretch(default) /center/start/end --- Vertical alignment
+justify-content: stretch(default) /center/start/end --- Horizantal alignment
+(To align items inside rows/columns[horizontally/vertically])
+
+justify-content: stretch(default) /center/start/end
+align-content: stretch(default) /center/start/end
+(To align entire grid indise grid container)
+[only applies if container is larger than Grid container]
+
+
+grid-columnn: <start line> / <end line>
+grid-row: <start line> / <end line>
+(to place a grid item into a specific cell based on grid line numbers)...
+grid-column/row: <start line> / span <end - start>
+(if we need to type 1 / 4 we can say instead 1 / span 3)
+
+
+justify-self: center/flex-start/flex-end/stretch;
+align-self: center/flex-start/flex-end/stretch;
+(To overwrite justify-items/align items for single items)
+
+
+#############  62
+
+grid-column/row: <start line> / span <end - start>
+(if we need to type 1 / 4 we can say instead 1 / span 3)
+grid-column/row: <start line> / <end line in -ve axis>
+
