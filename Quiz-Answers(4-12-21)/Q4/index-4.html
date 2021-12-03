@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Question 6</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 5px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        background-color: #f5d88a;
+        height: 1000px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .container {
+        height: 100%;
+        display: flex;
+        gap: 10px;
+      }
+      .nav-item {
+        list-style: none;
+        font-size: 30px;
+        padding: 10px 20px;
+        margin: 5px 5px;
+        width: 150px;
+        background-color: #c97a45;
+      }
+      .bk-box {
+        background-color: transparent;
+        color: transparent;
+        text-align: center;
+      }
+      .navbar {
+        align-self: flex-start;
+        position: fixed;
+        /* display: none; */
+      }
+      .nav-item:hover {
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+      }
+
+      .content {
+        padding: 10px 15px;
+        background-color: #f5f0df;
+        width: 100%;
+      }
+      .header {
+        padding: 15px;
+        font-size: 3rem;
+        background-color: #000;
+        color: white;
+        list-style: none;
+      }
+
+      /* Content */
+
+      .content p {
+        font-size: 20px;
+        margin: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <li class="header">
+        <a href="#"> Infographics </a>
+      </li>
+    </header>
+    <div class="container">
+      <div class="navbar">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">Blog</li>
+        <li class="nav-item">Support</li>
+        <li class="nav-item">Help</li>
+      </div>
+      <div class="navbar-shadow">
+        <li class="nav-item bk-box">Null</li>
+      </div>
+      <div class="content"></div>
+    </div>
+  </body>
+</html>
