@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@500&family=Gwendolyn:wght@700&family=Indie+Flower&family=Meow+Script&family=Pacifico&family=Smooch&display=swap");
+    </style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      nav {
+        padding: 0rem 1rem;
+        border-radius: 20%;
+      }
+      .main-heading {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .nav-item {
+        display: inline-block;
+        margin-left: 0.75rem;
+        background-color: chocolate;
+        border-radius: 6px;
+        font-size: 2rem;
+        padding: 0.5rem;
+      }
+      /* Hide Dropdowns by Default */
+      nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: antiquewhite;
+        border-radius: 7px;
+        top: 7.9rem;
+        left: 7.75rem;
+        padding: 1rem;
+      }
+      nav ul ul li {
+        padding: 0.5rem;
+        margin-bottom: 0.75rem;
+        background-color: rgb(236, 178, 136);
+        border-radius: 8px;
+        list-style: none;
+      }
+      nav ul li:focus-within > ul,
+      nav ul li:hover > ul {
+        display: inherit;
+      }
+      /* Fonts */
+      .font {
+        font-size: 1.6rem;
+        padding: 0.5rem;
+      }
+      .font-1 {
+        font-family: "Pacifico", cursive;
+      }
+      .font-2 {
+        font-family: "Gwendolyn", cursive;
+      }
+      .font-3 {
+        font-family: "Meow Script", cursive;
+      }
+      .font-4 {
+        font-family: "Corinthia", cursive;
+      }
+      .font-5 {
+        font-family: "Smooch", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="main-heading">Infographics</h1>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item">
+          <a href="#">Fonts</a>
+          <ul>
+            <li>
+              <a
+                href="https://fonts.google.com/specimen/Pacifico?category=Handwriting,Monospace"
+                class="font font-1"
+                target="_blank"
+              >
+                Pacifico
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://fonts.google.com/specimen/Gwendolyn"
+                class="font font-2"
+                target="_blank"
+              >
+                Gwendolyn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://fonts.google.com/specimen/Meow+Script"
+                class="font font-3"
+                target="_blank"
+              >
+                Meow Script
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://fonts.google.com/specimen/Corinthia"
+                class="font font-4"
+                target="_blank"
+              >
+                Corinthia
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://fonts.google.com/specimen/Smooch"
+                class="font font-5"
+                target="_blank"
+              >
+                Smooch
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#">Support</a></li>
+        <li class="nav-item">
+          <a href="https://developer.mozilla.org/" target="_blank"
+            >MDN Web Docs</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
