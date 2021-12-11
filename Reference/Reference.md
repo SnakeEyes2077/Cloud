@@ -6,6 +6,15 @@
 lorem generates blind text
 ```
 
+
+rem-relative font size (default 16px)
+	set base font size to 62.5% ~ 10px and then use rem on page
+for with % or vieport width
+	ch unit - width 0 of character of that number
+	used for paragraph widht (45~75 else looks messy)
+for height min height/anything use with vh
+
+
 # HTML
 
 ```
@@ -218,14 +227,20 @@ align-content: stretch(default) /center/start/end
 ```
 
 ```
+justify-self: center/flex-start/flex-end/stretch;
+align-self: center/flex-start/flex-end/stretch;
+(To overwrite justify-items/align items for single items)
+
+```
+
+```
 grid-columnn: <start line> / <end line>
 grid-row: <start line> / <end line>
 (to place a grid item into a specific cell based on grid line numbers)
 ```
-
 ```
-justify-self: center/flex-start/flex-end/stretch;
-align-self: center/flex-start/flex-end/stretch;
-(To overwrite justify-items/align items for single items)
+grid-column/row: <start line> / span <end - start>
+(if we need to type 1 / 4 we can say instead 1 / span 3)
+grid-column/row: <start line> / <end line in -ve axis>
 
 ```
