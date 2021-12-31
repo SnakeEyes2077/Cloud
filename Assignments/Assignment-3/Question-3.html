@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Question-3</title>
+    <script>
+      $(document).ready(function () {
+        $("#field1,#field2").focus(function () {
+          $("#box").css("background-color", "red");
+        });
+        $("#field1,#field2").blur(function () {
+          $("#box").css("background-color", "#00ff40");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      id="box"
+      style="padding: 20px; display: inline-block; background-color: #2600ff"
+    >
+      <form>
+        <input id="field1" type="text" value="Field 1" />
+        <input id="field2" type="text" value="Field 2" />
+      </form>
+    </div>
+  </body>
+</html>

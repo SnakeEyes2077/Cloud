@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question-2</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".cLickable").bind("click", function () {
+          $("<p>Single click Event</p>").appendTo(".res");
+        });
+
+        $(".cLickable").bind("dblclick", function () {
+          $("<p>Double click Event</p>").appendTo(".res");
+        });
+      });
+    </script>
+   
+  </head>
+    <div class="cLickable">Clickable Element</div>
+
+    <div class="res"></div>
+  </body>
+</html>
