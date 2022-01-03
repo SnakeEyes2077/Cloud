@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question-6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+      *{
+        font-family: "Helvetica Neue",Helvetica;
+      }
+      table{
+        text-align: center;
+      }
+      th{
+        padding:10px;
+        background-color: #f18f4e;
+      }
+      tr:nth-child(even){
+        background-color: #5f69f7;
+        background-color: #f7b054;
+      }
+      tr:nth-child(odd){
+        background-color: #f56d69;
+        background-color: #ccbaa1;
+      }
+      th{
+        width: 160px;
+      }
+      th:first-child{
+        width: 40px;
+      }
+      
+      .buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:20px;
+        position: fixed;
+        left: 525px;
+        top:50px
+      }
+      .buttons button{
+        font-size:20px;
+        font-family: serif;
+
+      }
+    </style>
+  </head>
+
+  <div class="container">
+    <body>
+      <div class="buttons">
+        <button class="add-row">Add row</button>
+        <button class="change-color">Change Color</button>
+      </div>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Sl.No</th>
+              <th>Name</th>
+              <th>Regd.No</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>      
+      <!-- Script to add table row -->
+    <script>
+      let lineNo = 1;
+      $(document).ready(function () {
+        $(".add-row").click(function () {
+          markup = "<tr><td>" + lineNo + "</td><td><input></td><td><input></td>"
+            +"<td><button class='delete-row' onclick='productDelete(this);'>Delete</button></td>"
+            +"</td></tr>";
+            $("table tbody").append(markup);
+          lineNo++;
+        });
+        $(".change-color").click(function () {
+          $("tr:nth-child(even)").css("background","#5f69f7");
+          $("tr:nth-child(odd)").css("background","#f56d69");
+        });
+      });
+      function productDelete(ctl) {
+      $(ctl).parents("tr").remove();
+      lineNo--;
+      }
+    </script>
+  </body>
+</html>
+<!-- 
+
+
+
+$(".add-row").click(function (){
+          
+        }
+
+ -->
